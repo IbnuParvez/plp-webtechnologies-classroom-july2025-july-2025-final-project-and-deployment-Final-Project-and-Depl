@@ -8,3 +8,5 @@ This project is a responsive multipage website built with HTML5, CSS3, and JavaS
 - `css/styles.css` — stylesheet
 - `js/main.js` — navigation & form validation
 - `js/slider.js` — image slider logic
+
+https://plp-webtechnologies-classroom-july2025-july-2025-duwrztwi9.vercel.app/index.html
