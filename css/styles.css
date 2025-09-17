@@ -79,3 +79,9 @@ input,textarea{padding:0.6rem;border:1px solid #ddd;border-radius:6px;font:inher
   .nav-toggle{display:block}
   .slides img{height:220px}
 }
+
+img {
+  max-width: 200px; /* limits width */
+  height: auto;     /* keeps proportions */
+  border-radius: 10px; /* optional: rounded corners */
+}
