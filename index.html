@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Portfolio — Home</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">MySite</a>
+
+      <button class="nav-toggle" aria-controls="primary-nav" aria-expanded="false">
+        <span class="hamburger"></span>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <h1>Designing thoughtful digital experiences</h1>
+          <p>Responsive websites built with HTML5, CSS3, and JavaScript.</p>
+          <a class="btn" href="about.html">Learn more</a>
+        </div>
+        <div class="hero-image">
+          <img src="images/hero.jpg" alt="Person at a laptop" />
+        </div>
+      </div>
+    </section>
+
+    <section class="features container">
+      <article class="feature">
+        <h3>Responsive</h3>
+        <p>Mobile-first designs that look great on any device.</p>
+      </article>
+      <article class="feature">
+        <h3>Accessible</h3>
+        <p>Semantic HTML and keyboard-friendly navigation.</p>
+      </article>
+      <article class="feature">
+        <h3>Interactive</h3>
+        <p>JavaScript features like sliders and form validation.</p>
+      </article>
+    </section>
+
+    <section class="slider-section container" aria-label="Featured work">
+      <h2>Featured Work</h2>
+      <div class="slider" id="slider">
+        <button class="slider-btn prev" aria-label="Previous slide">&lt;</button>
+        <div class="slides">
+          <div class="slide active"><img src="images/slide1.jpg" alt="Project 1"></div>
+          <div class="slide"><img src="images/slide2.jpg" alt="Project 2"></div>
+          <div class="slide"><img src="images/slide1.jpg" alt="Project 3"></div>
+        </div>
+        <button class="slider-btn next" aria-label="Next slide">&gt;</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> MySite • <a href="contact.html">Contact</a></p>
+    </div>
+  </footer>
+
+  <script src="js/slider.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
